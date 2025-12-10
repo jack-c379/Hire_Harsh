@@ -47,7 +47,7 @@ Hire_Harsh lets you stand out by turning your resume into a conversation. Instea
 
 **What you need:**
 - Docker & Docker Compose
-- OpenAI API key (local Ollama support coming soon)
+- OpenAI API key
 
 ### 1. Get the Code
 ```bash
@@ -72,10 +72,9 @@ GUARDRAILS_TOKEN="your_guardrails_token"   # Extra safety (slower build)
 **Pro tip**: The app works fine without the optional stuff. Only add them if you actually need the features.
 
 ### 3. Make It Yours
-- Swap out `data/CV_Demo.pdf` with your actual resume
+- Replace the resume PDF in `data/` with your actual resume and update the path in `config/base.yml`
 - Edit `data/about_me.md` with extra info not in your CV (or delete it)
-- Edit `config/base.yml` if you want to change file paths or naming
-- replace `/static/default-avatar.png` with your profile picture
+- Edit `config/base.yml` to update your candidate information (name, email, LinkedIn, GitHub)
 
 ### 4. Start the App
 ```bash
@@ -132,7 +131,7 @@ Give specific people access with custom invite codes.
 - FastAPI backend for the API
 - Retrieval Augmented Generation (RAG):
   - ChromaDB as Database
-  - OpenAI API (or Ollama locally) as LLM
+  - OpenAI API as LLM
 - LangChain connecting the dots
 - Guardrails to keep things professional and save
 

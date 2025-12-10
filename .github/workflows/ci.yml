@@ -71,13 +71,13 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build --secret id=guardrails_token,env=GUARDRAILS_TOKEN -t chatcv:latest .
+        docker build --secret id=guardrails_token,env=GUARDRAILS_TOKEN -t Hire_Harsh:latest .
       env:
         GUARDRAILS_TOKEN: ${{ secrets.GUARDRAILS_TOKEN }}
 
     - name: Test Docker image
       run: |
-        docker run --rm -d --name chatcv-test -p 8000:8000 chatcv:latest
+        docker run --rm -d --name Hire_Harsh-test -p 8000:8000 Hire_Harsh:latest
         sleep 10
         curl -f http://localhost:8000/health || exit 1
-        docker stop chatcv-test
+        docker stop Hire_Harsh-test

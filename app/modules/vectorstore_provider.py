@@ -7,6 +7,7 @@ from langchain_chroma import Chroma
 from langchain_core.documents import Document
 import re
 import os
+from pathlib import Path
 from app.modules.model_provider import ModelProvider
 from app.config import AppConfig
 from app.modules.guardrails import InputValidator
@@ -47,10 +48,16 @@ class VectorStoreManager:
         self.logger.info("Setting up vectorstore with document ingestion")
 
         try:
-            # Load primary CV document
-            cv_loader = PyPDFLoader(self.config.data.cv_path)
-            cv_documents = cv_loader.load()
-            self.logger.info(f"Loaded {len(cv_documents)} CV documents")
+            # Load primary CV document (supports both PDF and markdown/text files)
+            cv_path = Path(self.config.data.cv_path)
+            if cv_path.suffix.lower() == '.pdf':
+                cv_loader = PyPDFLoader(str(cv_path))
+                cv_documents = cv_loader.load()
+            else:
+                # Handle markdown, txt, and other text formats
+                cv_loader = TextLoader(str(cv_path), encoding='utf-8')
+                cv_documents = cv_loader.load()
+            self.logger.info(f"Loaded {len(cv_documents)} CV documents from {cv_path.name}")
             for doc in cv_documents:
                 doc.metadata["source"] = "cv"
         except Exception as e:
@@ -186,9 +193,14 @@ class DocumentHandler:
             str: Concatenated CV content.
         """
         try:
-            cv_loader = PyPDFLoader(self.config.data.cv_path)
+            # Load CV document (supports both PDF and markdown/text files)
+            cv_path = Path(self.config.data.cv_path)
+            if cv_path.suffix.lower() == '.pdf':
+                cv_loader = PyPDFLoader(str(cv_path))
+            else:
+                cv_loader = TextLoader(str(cv_path), encoding='utf-8')
             cv_documents = cv_loader.load()
-            self.logger.info(f"Loaded {len(cv_documents)} CV document pages")
+            self.logger.info(f"Loaded {len(cv_documents)} CV document pages/sections")
         except Exception as e:
             self.logger.error(f"Failed to load CV document: {e}")
             return ""
@@ -244,10 +256,14 @@ class DocumentHandler:
         self.logger.info("Loading documents for summary generation")
 
         try:
-            # Load CV (PDF)
-            cv_loader = PyPDFLoader(self.config.data.cv_path)
+            # Load CV (supports both PDF and markdown/text files)
+            cv_path = Path(self.config.data.cv_path)
+            if cv_path.suffix.lower() == '.pdf':
+                cv_loader = PyPDFLoader(str(cv_path))
+            else:
+                cv_loader = TextLoader(str(cv_path), encoding='utf-8')
             docs_cv = cv_loader.load()
-            self.logger.info(f"Loaded {len(docs_cv)} CV documents")
+            self.logger.info(f"Loaded {len(docs_cv)} CV documents from {cv_path.name}")
             for doc in docs_cv:
                 doc.metadata["source"] = "cv"
         except Exception as e:

@@ -1,5 +1,14 @@
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_ollama import OllamaEmbeddings, ChatOllama
+
+# Optional Ollama support (only imported if needed)
+try:
+    from langchain_ollama import OllamaEmbeddings, ChatOllama
+    OLLAMA_AVAILABLE = True
+except ImportError:
+    OLLAMA_AVAILABLE = False
+    # Create dummy types for type hints
+    OllamaEmbeddings = None  # type: ignore
+    ChatOllama = None  # type: ignore
 
 from app.config import AppConfig
 import logging
@@ -41,6 +50,10 @@ class ModelProvider:
             f"Starting initialization of language model '{self.config.llm.model}'."
         )
         if "ollama" in str(self.config.llm.provider).lower():
+            if not OLLAMA_AVAILABLE:
+                raise ImportError(
+                    "Ollama support is not available. Install langchain-ollama to use Ollama models."
+                )
             self.logger.info(
                 "Detected Ollama language model source based on model name."
             )
@@ -70,6 +83,10 @@ class ModelProvider:
             f"Starting initialization of embedding model '{self.config.embedding.model}'."
         )
         if "ollama" in model_name:
+            if not OLLAMA_AVAILABLE:
+                raise ImportError(
+                    "Ollama support is not available. Install langchain-ollama to use Ollama embeddings."
+                )
             self.logger.info(
                 "Detected Ollama embedding model source based on model name."
             )

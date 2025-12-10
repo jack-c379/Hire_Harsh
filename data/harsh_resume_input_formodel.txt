@@ -1,0 +1,729 @@
+0. Who You Are (1–2 paragraphs)
+
+You’re an ex-founder and product leader with 8+ years of experience scaling AI-driven products across Real Estate, EdTech, IT, and Digital domains. You specialise in using machine learning, generative AI, and data-driven experimentation to drive growth, and you’ve led cross-functional teams spanning engineering, data science, design, and business. You focus on building responsible, monetizable, and scalable AI solutions. 
+
+Harsh Jaiswal Resume 9Dec
+
+1. Contract, AI Products & Growth (incl. Infutrix)
+
+Role: Contract, AI Products & Growth (including part-time Director of AI Products at Infutrix – user clarification)
+Duration: Jun 2024 – Present 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Location: Largely India + remote (assumption)
+
+Role Snapshot
+
+You’ve been running a contract / portfolio phase focused on AI products & growth, during which you also served part-time as Director of AI Products at Infutrix (LinkedIn). Your work here centres on:
+
+Building and scaling AI concierges for hospitality. 
+
+Harsh Jaiswal Resume 9Dec
+
+Creating a GEO-first blog app that publishes AI-generated content end-to-end. 
+
+Harsh Jaiswal Resume 9Dec
+
+Shipping micro AI apps (“chat with my resume”, SEO audit, etc.). 
+
+Harsh Jaiswal Resume 9Dec
+
+Driving $1M ARR in 12 months and 3× active user growth across products via early enterprise GTM. 
+
+Harsh Jaiswal Resume 9Dec
+
+STAR 1 – AI Concierge for Hospitality
+
+Situation
+Hotels were overloaded with repetitive guest queries (check-in, amenities, F&B, local info) and manual check-ins. They wanted better efficiency without sacrificing guest experience, and ideally a way to lift F&B revenue from new guests.
+
+Task
+Design and launch an AI concierge app that could:
+
+Automate a large majority of guest queries with high accuracy.
+
+Shorten check-in times.
+
+Increase F&B revenue, especially from first-time users.
+
+Actions
+
+Mapped top query categories and designed structured conversation flows for each (check-in, room issues, amenities, F&B orders, recommendations).
+
+Worked with engineers to wire an LLM-based concierge into hotel systems: bookings, room assignments, menu data, opening hours.
+
+Set up telemetry to track:
+
+Automation rate (queries resolved without human fallback).
+
+Average check-in duration.
+
+F&B orders originating from concierge interactions.
+
+Iterated on prompts, fallback logic, and escalation rules based on logs and error cases.
+
+Results
+
+90% of guest queries automated with accurate responses. 
+
+Harsh Jaiswal Resume 9Dec
+
+30% faster check-ins after rollout. 
+
+Harsh Jaiswal Resume 9Dec
+
+18% higher F&B revenue from first-time users exposed to the concierge. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You turned a high-touch operational function into an AI product that improved experience, efficiency, and revenue simultaneously.
+
+STAR 2 – GEO-first Blog App (Zero-Touch AI Content Engine)
+
+Situation
+Content-heavy organisations needed to produce large volumes of blog content, often geo- or segment-specific, but couldn’t keep scaling editorial teams.
+
+Task
+Co-create a GEO-first blog app that could:
+
+Ideate, draft, and publish blog posts without a human in the loop.
+
+Be discoverable across search and AI surfaces.
+
+Actions
+
+Designed a pipeline where a chain of AI agents:
+
+Discover topics/keywords by geography or theme.
+
+Generate outlines and full drafts.
+
+Auto-apply metadata (title, tags, links) and publish.
+
+Put in place guardrails: tone guidelines, length constraints, structure templates and checks before publishing.
+
+Wired it into the publishing stack so content could go from idea → published automatically.
+
+Results
+
+10,000+ hours saved in content production and editing work. 
+
+Harsh Jaiswal Resume 9Dec
+
+Content from this system earned 100+ AI Search mentions, signalling good visibility in AI-powered search experiences. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You built a zero-touch AI content engine that removed human bottlenecks from blog production while still surfacing in AI and search ecosystems.
+
+STAR 3 – Micro AI Apps & Early Enterprise GTM
+
+Situation
+Founders and small teams often need sharp, point-solution AI tools (resume QA, SEO reviews, etc.), but don’t have time to build or maintain them. On your side, you needed to prove these AI products could generate real ARR, not just demo-ware.
+
+Task
+
+Ship micro AI apps for high-value, narrow problems.
+
+Orchestrate an early enterprise GTM to convert usage into revenue.
+
+Actions
+
+Built micro solutions like:
+
+“Chat with my resume” – converting CVs into interactive Q&A agents. 
+
+Harsh Jaiswal Resume 9Dec
+
+AI SEO audit – scanning websites and summarising issues and opportunities. 
+
+Harsh Jaiswal Resume 9Dec
+
+Packaged these apps into a small portfolio of AI utilities that teams could adopt quickly.
+
+Ran focused GTM:
+
+Targeted founders and product/growth leaders.
+
+Pitched outcomes (time saved, quality of insights) rather than features.
+
+Tracked activation, retention, and usage patterns to refine pricing and packaging.
+
+Results
+
+Secured $1M ARR in 12 months across products. 
+
+Harsh Jaiswal Resume 9Dec
+
+Drove 3× active user growth across the product portfolio. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You demonstrated that you can ship AI products and sell them—not just prototype—by owning both product and early GTM.
+
+2. Wasalt – Senior Product Manager (Search, Monetization & Growth)
+
+Employer: Wasalt – Horizontal Real Estate Platform (Arabic users) 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Role: Senior Product Manager
+Duration: Dec 2022 – Apr 2024 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Location: Riyadh, Saudi Arabia (user clarification + LinkedIn)
+
+Role Snapshot
+
+You led 6 PMs and ~40 engineers owning:
+
+The Search Experience for ~500k monthly users. 
+
+Harsh Jaiswal Resume 9Dec
+
+Search monetization, generating $8M annual ad revenue on search & project pages. 
+
+Harsh Jaiswal Resume 9Dec
+
+WhatsApp flows, Lead Churn, and an ML-driven Price Fairness index. 
+
+Harsh Jaiswal Resume 9Dec
+
+STAR 1 – Turning Search into a $8M Revenue Engine
+
+Situation
+Search was the primary discovery surface for property listings but:
+
+Relevance was not strong enough.
+
+Ad monetization was under-leveraged, with risk of hurting UX and fairness.
+
+Task
+
+Improve search relevance in a measurable way.
+
+Build a search monetization model that generates meaningful revenue while keeping lead distribution fair.
+
+Actions
+
+Led a team of 6 PMs & 40 engineers on search and marketplace products. 
+
+Harsh Jaiswal Resume 9Dec
+
+Defined and integrated relevance signals into ranking:
+
+Saved previous searches, lead quota, user interests. 
+
+Harsh Jaiswal Resume 9Dec
+
+Image-based CTR boosts to reward click-worthy listings. 
+
+Harsh Jaiswal Resume 9Dec
+
+Revamped the search algorithm to also consider:
+
+Freshness, listing completion, vendor reputation, behavioural data. 
+
+Harsh Jaiswal Resume 9Dec
+
+Implemented dynamic ad inventory on Search & Project pages. 
+
+Harsh Jaiswal Resume 9Dec
+
+Designed 5 ad formats blended with organic results to balance revenue and lead fairness. 
+
+Harsh Jaiswal Resume 9Dec
+
+Results
+
+$8M annual ad revenue from search and project pages. 
+
+Harsh Jaiswal Resume 9Dec
+
+22% improvement in search relevance, improving matches between users and listings. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You transformed search from a pure UX feature into a high-revenue, data-driven engine while making results more relevant.
+
+STAR 2 – WhatsApp Flows as a High-Efficiency Lead Channel
+
+Situation
+Many users were more comfortable engaging over WhatsApp than through in-app forms. Wasalt wanted to tap into this behaviour without exploding CAC.
+
+Task
+
+Design and scale WhatsApp-based recommendation and lead-gen flows to increase inquiries at lower cost.
+
+Actions
+
+Built custom WhatsApp flows for:
+
+Recommendations (capturing user preferences and returning suitable listings).
+
+Lead capture and follow-up.
+
+Integrated flows with the core lead management system so WA leads entered the same funnel as app/web leads.
+
+Monitored performance and optimised flows for fewer drop-offs and better matches.
+
+Results
+
+WhatsApp flows generated ~30% of total platform inquiries. 
+
+Harsh Jaiswal Resume 9Dec
+
+Achieved this at ~20% of CAC vs. other channels. 
+
+Harsh Jaiswal Resume 9Dec
+
+Drove a 250% lift in Leads/User within 3 months. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You unlocked WhatsApp as a high-volume, low-CAC growth channel, significantly increasing qualified leads.
+
+STAR 3 – Lead Churn & Price Fairness (ML)
+
+Situation
+
+A significant number of leads were getting “stuck” with unresponsive brokers.
+
+Users lacked a clear signal on whether listings were fairly priced, hurting trust and CTR.
+
+Task
+
+Build a Lead Churn mechanism to redistribute unserved leads.
+
+Create a Price Fairness index using ML to highlight fairly priced listings.
+
+Actions
+
+Lead Churn:
+
+Defined what a “churned” inquiry looks like (no response, repeated miss, etc.).
+
+Aggregated inquiries and redistributed stale leads to nearby brokers with similar listings. 
+
+Harsh Jaiswal Resume 9Dec
+
+Price Fairness:
+
+Collected 3 years of sales data and trained an XGBoost regression model. 
+
+Harsh Jaiswal Resume 9Dec
+
+Applied it to ~50k listings to compute a fairness index. 
+
+Harsh Jaiswal Resume 9Dec
+
+Surfaced fairness in UI and used it to boost fairly priced listings in search.
+
+Results
+
+Lead allocation improved by ~40% within 8 weeks. 
+
+Harsh Jaiswal Resume 9Dec
+
+Subscription renewal rate improved by 27%, indicating better broker ROI. 
+
+Harsh Jaiswal Resume 9Dec
+
+Fairly priced listings saw 11% higher CTR, improving marketplace quality. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You built ML-backed systems that rescued value from stale leads and improved price transparency, strengthening both user trust and broker economics.
+
+3. Bluebird – Founder, Mautic++
+
+Employer: Bluebird (your own company) 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Role: Founder
+Duration: Feb 2018 – Sep 2022 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Location: Gurugram, India (from LinkedIn; not in resume)
+
+Role Snapshot
+
+You founded Bluebird and built Mautic++, a Mautic-based enterprise marketing automation and ABM platform:
+
+Worked with 50+ enterprises. 
+
+Harsh Jaiswal Resume 9Dec
+
+Drove $1M+ pipeline from $7k baseline. 
+
+Harsh Jaiswal Resume 9Dec
+
+Increased lead activation by 43% and meeting conversions by 135%. 
+
+Harsh Jaiswal Resume 9Dec
+
+Achieved 25–40% lift in response rates with LinkedIn outreach and 27% lift in meetings from high-value accounts via offline plays. 
+
+Harsh Jaiswal Resume 9Dec
+
+STAR 1 – Building Mautic++ and Scaling Enterprise Pipeline
+
+Situation
+Enterprise clients needed flexible, cost-effective marketing automation more tailored than typical SaaS out-of-the-box tools.
+
+Task
+
+Build Mautic++ as a differentiated automation/ABM stack.
+
+Use it to materially increase sales pipeline for clients.
+
+Actions
+
+Architected Mautic++ with soft→hard scoring journeys, moving leads through content, engagement, and intent stages. 
+
+Harsh Jaiswal Resume 9Dec
+
+Implemented multi-touch campaigns across email/SMS/WhatsApp, tuned for each client’s funnel.
+
+Created reusable ABM playbooks for 10+ scenarios (new logos, expansion, reactivation, etc.). 
+
+Harsh Jaiswal Resume 9Dec
+
+Results
+
+For 50+ enterprise customers, pipeline grew to $1M+ from a baseline of $7k via these journeys. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You proved that customised automation on top of Mautic can generate serious enterprise pipeline when paired with well-designed journeys.
+
+STAR 2 – Scoring Frameworks & Meeting Conversions
+
+Situation
+Sales teams had large volumes of leads but no clear prioritisation, leading to low meeting conversion rates.
+
+Task
+
+Establish Account & Lead scoring across all touchpoints.
+
+Improve meeting conversions from marketing-sourced leads.
+
+Actions
+
+Designed scoring frameworks across all touchpoints (online + offline). 
+
+Harsh Jaiswal Resume 9Dec
+
+Fed scores into lead routing and SDR workflows, ensuring hot leads surfaced quickly.
+
+Integrated scoring with HubSpot and Bitrix, unifying data and personalisation. 
+
+Harsh Jaiswal Resume 9Dec
+
+Results
+
+Meeting conversions improved by 135% (online + offline), driven by better prioritisation. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You turned fragmented engagement data into a single prioritisation signal, dramatically increasing the effectiveness of sales outreach.
+
+STAR 3 – LinkedIn ABM + Offline Plays for High-Value Accounts
+
+Situation
+Email-only campaigns plateaued; high-value accounts needed multi-channel, high-touch engagement.
+
+Task
+
+Use LinkedIn and offline tactics to boost response and meeting rates among key accounts.
+
+Actions
+
+Integrated LinkedIn outreach into ABM flows (views, connection requests, DMs), synchronised with email sequences. 
+
+Harsh Jaiswal Resume 9Dec
+
+Orchestrated offline gifting and curated events to engage buying groups for high-value accounts. 
+
+Harsh Jaiswal Resume 9Dec
+
+Tuned send times, messaging, and sequencing using performance data.
+
+Results
+
+Response rates lifted by 25–40% when LinkedIn was added into flows. 
+
+Harsh Jaiswal Resume 9Dec
+
+Meeting conversions for high-value accounts increased by 27% via offline engagement. 
+
+Harsh Jaiswal Resume 9Dec
+
+Ensured 95%+ delivery across Email/SMS/WhatsApp, so touches reliably landed. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You built a full-funnel ABM engine that used digital + offline channels to improve both responses and meetings with strategic accounts.
+
+4. Uolo – Growth Product Manager (EdTech)
+
+Employer: Uolo – K-12 Learning App 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Role: Growth Product Manager (user clarification)
+Duration: (Not listed on resume; LinkedIn indicates Jun 2020 – Aug 2021 – assumption for narrative)
+
+STAR 1 – Zero-to-One Classroom & Live Hobby Products
+
+Situation
+Uolo wanted to expand beyond core school communication into classroom learning and live hobby classes, with no existing product in these spaces.
+
+Task
+
+Build Classroom Learning and Live Hobby Class offerings from scratch.
+
+Prove strong early adoption.
+
+Actions
+
+Defined MVPs:
+
+Curriculum-alike Classroom Learning flows.
+
+Live Hobby Classes across 15+ categories (music, art, etc.). 
+
+Harsh Jaiswal Resume 9Dec
+
+Set up onboarding flows for students, parents, and teachers.
+
+Iterated aggressively based on early engagement.
+
+Results
+
+Took the products from 0 → 60k users in 3 months. 
+
+Harsh Jaiswal Resume 9Dec
+
+STAR 2 – Inside Sales Engine & School Acquisition
+
+Situation
+Scaling required school-level adoption, not just individual downloads.
+
+Task
+
+Build an inside sales team & engine to acquire schools at scale.
+
+Actions
+
+Built an Inside Sales team of 30+ from scratch. 
+
+Harsh Jaiswal Resume 9Dec
+
+Designed processes for:
+
+Lead sourcing, qualification, and routing.
+
+Pitches, scripts, and follow-up cadences.
+
+Results
+
+Scaled to 1500 schools in the first year, generating 3 Cr in revenue. 
+
+Harsh Jaiswal Resume 9Dec
+
+Helped the app cross 100k+ downloads. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You combined new product development with building a sales engine, turning Uolo into a scaled K-12 footprint.
+
+5. Park+ – Product & Growth (Parking & Valet)
+
+Employer: Park+, SuperApp for Car Owners 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Role: Product Manager, Parking & Valet (user clarification)
+Duration: Not listed on resume (assumption: engagement between Bluebird/Uolo period)
+
+STAR 1 – 4× Online Bookings
+
+Situation
+Park+ needed to grow its online parking bookings to strengthen its superapp position.
+
+Task
+
+Significantly increase online bookings in under a year.
+
+Actions
+
+Analysed funnels for search → selection → booking.
+
+Simplified flows and clarified pricing and availability.
+
+Optimised discovery and CTAs inside the app.
+
+Results
+
+Scaled online bookings by 4× in 8 months. 
+
+Harsh Jaiswal Resume 9Dec
+
+STAR 2 – Operator Gamification & Valet Web App
+
+Situation
+
+Operator engagement and completeness (supply-side) were inconsistent.
+
+Valet experiences were fragmented across calls and manual coordination.
+
+Task
+
+Increase key operator completions.
+
+Build a better valet UX for users.
+
+Actions
+
+Gamified operator app to reward critical actions (onboarding, data updates, confirmations). 
+
+Harsh Jaiswal Resume 9Dec
+
+Launched a valet web app so users could:
+
+Pre-book valet.
+
+Pay, call, and track valet journeys. 
+
+Harsh Jaiswal Resume 9Dec
+
+Results
+
+Gamification led to ~67% completions in 1 month for target actions. 
+
+Harsh Jaiswal Resume 9Dec
+
+Valet web app added 18% new MAU every month. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You improved both supply health and user experience, driving growth on both sides of the marketplace.
+
+6. Hive, Xander Group – Product/Growth (ABM Engine)
+
+Employer: Hive, Xander Group 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Role: Full-time employee (Product & Growth / ABM; user clarification: full-time)
+Duration: Dec 2016 – Jan 2018 
+
+Harsh Jaiswal Resume 9Dec
+
+Key Story
+
+Helped set up an Account Based Marketing engine to generate inquiries from enterprises like Airbus & Abengoa. 
+
+Harsh Jaiswal Resume 9Dec
+
+Work likely involved targeted campaigns, orchestrated touches, and sales enablement tuned for large enterprise buyers (inferred from ABM context).
+
+Impact
+You proved ABM can work for large, global enterprises, not just mid-market—useful as a prior to your later Bluebird ABM work.
+
+7. Jungleworks – Business Development Manager (Growth)
+
+Employer: Jungleworks 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Role: Business Development Manager (user clarification; LinkedIn currently says “Growth”)
+Duration: May 2014 – Oct 2015 
+
+Harsh Jaiswal Resume 9Dec
+
+
+Note: First role after IIT Delhi (user clarification).
+
+Key STAR Story – “Uber for X” Campaign
+
+Situation
+Jungleworks wanted to position itself as the “Uber for X” platform provider to funded startups globally and needed a breakthrough campaign to win them.
+
+Task
+
+Conceptualise and run a campaign to capture funded startups worldwide and convert them into recurring customers.
+
+Actions
+
+Conceptualised the “Uber for X” campaign targeting funded startups. 
+
+Harsh Jaiswal Resume 9Dec
+
+Designed messaging that emphasised speed-to-market and reliability.
+
+Focused on high-value prospects (VC-backed, ready to build on-demand services).
+
+Results
+
+Closed $100k per month in revenue within 2 months from the campaign. 
+
+Harsh Jaiswal Resume 9Dec
+
+Impact
+You built an early growth playbook that showed you can pair narrative (“Uber for X”) with execution to quickly land revenue.
+
+8. Education & Skills
+
+Education
+
+Indian Institute of Technology, Delhi (IIT Delhi) – B.Tech, Electrical Engineering, 2009–2014. 
+
+Harsh Jaiswal Resume 9Dec
+
+Skills & Tools 
+
+Harsh Jaiswal Resume 9Dec
+
+Technical:
+
+Python, SQL
+
+AI Prototyping, AI Agent Systems, RAG Agents, Tool Calling, AI Evals
+
+N8N, Cursor
+
+Product / Growth:
+
+UX
+
+Mixpanel, Amplitude, Tableau, GA4
+
+Figma, Notion, Jira
+
+Go-To-Market Strategy, ABM, AEO

@@ -68,9 +68,6 @@ GUARDRAILS_TOKEN=""
 # Optional: LLM Provider (default: openai)
 LLM_PROVIDER=openai
 
-# Optional: Ollama endpoint (if using Ollama)
-OLLAMA_ENDPOINT=http://localhost:11434
-
 # Environment
 ENVIRONMENT=development
 

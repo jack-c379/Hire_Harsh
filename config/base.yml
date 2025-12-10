@@ -1,14 +1,9 @@
 # Core configuration for Hire_Harsh - English comments and clear structure
 llm:
   provider: "openai"
-  model: "gpt-4o-mini" # eg. "gpt-4o-mini" or "llama3.2"
+  model: "gpt-4o-mini"
   temperature: 0.1
   timeout: 60
-
-ollama:
-  endpoint: "http://ollama:11434"
-  models: "llama3.2"
-  timeout: 120
 
 embedding:
   provider: "openai"
@@ -45,7 +40,7 @@ logging:
 
 data:
   # CV file path
-  cv_path: "data/Harsh Jaiswal Resume 4Dec.pdf"
+  cv_path: "data/Harsh_Jaiswal_Resume.md"
   about_me_path: "data/about_me.md"
   vector_db_path: "data/vector_db"
   analytics_log_path: "data/analytics.log"

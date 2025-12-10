@@ -90,7 +90,7 @@ def main():
     check_file_exists("main.py", "Main application file")
     check_file_exists("requirements.txt", "Requirements file")
     check_file_exists("app/config.py", "Configuration module")
-    check_file_exists("data/Harsh Jaiswal Resume 4Dec.pdf", "CV file")
+    check_file_exists("data/Harsh_Jaiswal_Resume.md", "CV file")
     print()
     
     # Check directories

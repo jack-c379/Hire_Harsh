@@ -17,7 +17,7 @@ class LLMConfig(BaseModel):
 
 
 class OllamaConfig(BaseModel):
-    """Configuration for the Ollama model endpoint and parameters."""
+    """Configuration for the Ollama model endpoint and parameters (optional, for future use)."""
 
     endpoint: str = "http://localhost:11434"
     models: str = "llama3.2"
@@ -75,7 +75,7 @@ class LoggingConfig(BaseModel):
 class DataPaths(BaseModel):
     """Configuration for various data file paths used by the application."""
 
-    cv_path: str = "data/Harsh Jaiswal Resume 4Dec.pdf"
+    cv_path: str = "data/Harsh_Jaiswal_Resume.md"
     about_me_path: str = "data/about_me.md"
     vector_db_path: str = "data/vector_db"
     analytics_log_path: str = "data/analytics.log"

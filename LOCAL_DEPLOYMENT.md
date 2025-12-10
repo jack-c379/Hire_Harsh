@@ -31,9 +31,6 @@ GUARDRAILS_TOKEN=""
 # Optional: LLM Provider (default: openai)
 LLM_PROVIDER=openai
 
-# Optional: Ollama endpoint (if using Ollama)
-OLLAMA_ENDPOINT=http://localhost:11434
-
 # Environment
 ENVIRONMENT=development
 
@@ -78,10 +75,9 @@ mkdir -p logs data/vector_db
 
 ### Step 5: Customize Your Resume (Optional)
 
-1. Replace `data/CV_Demo.pdf` with your actual resume PDF
+1. Replace the resume PDF in `data/` with your actual resume PDF and update the path in `config/base.yml`
 2. Edit `data/about_me.md` with additional information
-3. Replace `static/default-avatar.png` with your profile picture
-4. Update candidate info in `config/base.yml`:
+3. Update candidate info in `config/base.yml`:
    ```yaml
    candidate:
      name: "Your Name"
@@ -146,8 +142,7 @@ docker run -p 8000:8000 \
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `OPENAI_API_KEY` | Yes | Your OpenAI API key |
-| `LLM_PROVIDER` | No | `openai` or `ollama` (default: `openai`) |
-| `OLLAMA_ENDPOINT` | No | Ollama endpoint (default: `http://localhost:11434`) |
+| `LLM_PROVIDER` | No | LLM provider (default: `openai`) |
 | `ENVIRONMENT` | No | `development` or `production` (default: `development`) |
 | `LANGSMITH_API_KEY` | No | For advanced analytics |
 | `GUARDRAILS_TOKEN` | No | For content safety features |

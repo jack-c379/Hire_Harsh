@@ -12,30 +12,30 @@
 ```bash
 cd /Users/maya/Documents/Github/Hire_Harsh
 
-# Backup the demo resume (optional)
-cp data/CV_Demo.pdf data/CV_Demo.pdf.backup
-
-# Replace with your resume
 # Copy your resume PDF to the data directory
-cp /path/to/your/resume.pdf data/CV_Demo.pdf
-```
-
-**Option B: Use a Custom Name**
-```bash
-# Copy your resume to the data directory
-cp /path/to/your/resume.pdf data/My_Resume.pdf
+cp /path/to/your/resume.pdf data/Your_Resume.pdf
 
 # Update the config file (see Step 3)
 ```
 
-### 3. Update Configuration (Optional but Recommended)
+**Option B: Use the Existing File Name**
+```bash
+# If you want to replace the existing resume file directly
+cp /path/to/your/resume.pdf data/Harsh_Jaiswal_Resume.md
+# Or if you have a markdown/text resume:
+# cp /path/to/your/resume.md data/Harsh_Jaiswal_Resume.md
+
+# No need to update cv_path in config if you use the existing filename
+```
+
+### 3. Update Configuration (Required)
 
 Edit `config/base.yml` and update the candidate information:
 
 ```yaml
 data:
-  # CV file path (change if you used a custom name)
-  cv_path: "data/CV_Demo.pdf"  # or "data/My_Resume.pdf" if you used a custom name
+  # CV file path (update to match your resume filename)
+  cv_path: "data/Your_Resume.pdf"  # Update this to match your actual resume filename
 
 # === Personalized Information ===
 candidate:
@@ -103,8 +103,8 @@ Or use the run script:
 # 1. Navigate to project
 cd /Users/maya/Documents/Github/Hire_Harsh
 
-# 2. Copy your resume (replace with your actual path)
-cp ~/Downloads/MyResume.pdf data/CV_Demo.pdf
+# 2. Copy your resume (replace with your actual path and filename)
+cp ~/Downloads/MyResume.pdf data/Your_Resume.pdf
 
 # 3. Update config (edit config/base.yml with your info)
 # Use any text editor or: nano config/base.yml
@@ -126,8 +126,8 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 **Issue: Resume not loading**
 - Check that the PDF is in the `data/` directory
-- Verify the filename matches what's in `config/base.yml`
-- Check file permissions: `ls -la data/CV_Demo.pdf`
+- Verify the filename matches what's in `config/base.yml` (cv_path setting)
+- Check file permissions: `ls -la data/` (list all files to see your resume)
 
 **Issue: Error reading PDF**
 - Make sure your PDF is not password-protected
